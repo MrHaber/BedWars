@@ -1,0 +1,7 @@
+name: BedWars
+description: "First DeathCoder725's minigame"
+version: 1.0
+
+author: "DeathCoder"
+
+main: net.deathcoder.bedwars.BedWarsPlugin
