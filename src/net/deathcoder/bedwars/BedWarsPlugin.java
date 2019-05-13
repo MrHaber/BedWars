@@ -3,7 +3,7 @@ package net.deathcoder.bedwars;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class BedWarsPlugin extends JavaPlugin {
-    private static BedWarsPlugin instance;
+    public static BedWarsPlugin instance;
 
     @Override
     public void onEnable() {
@@ -13,6 +13,6 @@ public class BedWarsPlugin extends JavaPlugin {
     }
 
     public BedWarsPlugin getInstance() {
-        return instance;
+        return BedWarsPlugin.instance;
     }
 }
